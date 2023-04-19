@@ -4,7 +4,7 @@ permalink: /
 redirect_from:
 - /about.html
 - /about/
-title: Patrick Laub
+title: Crave Specialty Coffee
 ---
 
 Crave is a Specialty Brunch cafe born from a passion for specialty coffee and downright good brunch. We have an all-day brunch menu to pair with our reserved coffee menu offering a wide variety of different coffees fresh and frozen to satisfy your caffeine needs.
