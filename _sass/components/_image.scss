@@ -41,7 +41,7 @@
 			max-height:50%;
 			margin-bottom: 1em;
 			float: left;
-			padding: 0 15px;
+			padding-right: 15px;
 		}
 		@include breakpoint(small) {
 			&.front_image {
