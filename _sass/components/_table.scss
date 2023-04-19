@@ -6,6 +6,15 @@
 
 /* Table */
 
+	.gist {
+		table {
+			tr {
+				border: 0;
+				background-color: _palette(border-bg);
+			}
+		}
+	}
+
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
