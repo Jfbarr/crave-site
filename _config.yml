@@ -1,0 +1,91 @@
+# remote_theme: mmistakes/so-simple-theme
+
+locale: en-US
+title: "Crave Specialty Coffee"
+description: "Smashing Avos & All Day Brunch"
+baseurl: "/crave-site"
+url: "https://jfbarr.github.io"
+# logo: "/images/crave_logo.jpeg"
+date_format: "%B %-d, %Y"
+read_time: false
+words_per_minute: # 200
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+# google_analytics: "UA-2011187-2"
+# disqus:
+#   shortname: "sosimpletheme"
+# twitter:
+#   username: "mmistakes"
+# google_site_verification: "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
+
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+permalink: /:categories/:title/
+markdown: kramdown
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Search
+search_full_content: false
+
+# Taxonomy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+# Collections
+# collections:
+#   recipes:
+#     output: true
+#     permalink: /:collection/:path/
+
+# Front Matter Defaults
+defaults:
+  # Event defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: false
+      share: false
+
+# Footer Links
+footer_links:
+  - title: facebook
+    url: https://www.facebook.com/cravespecialtycoffee/
+    icon: fab fa-facebook
+  - title: instagram
+    url: https://www.instagram.com/crave.specialtycoffee/?hl=en
+    icon: fab fa-instagram
+  - title: Google Maps
+    url: https://goo.gl/maps/tF6UWQVMEJqmrYHa6
+    icon: fa fa-map-marker-alt
