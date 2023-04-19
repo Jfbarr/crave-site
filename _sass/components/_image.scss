@@ -34,6 +34,13 @@
 			padding: 0 15px;
 		}
 
+		&.second_image {
+			width: auto;
+			max-width: 30%;
+			margin-bottom: 1em;
+			float: left;
+			padding: 0 15px;
+		}
 		@include breakpoint(small) {
 			&.front_image {
 				max-width: 60%;
