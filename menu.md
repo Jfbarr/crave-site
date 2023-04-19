@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Food
 Menu here
 # Drinks
