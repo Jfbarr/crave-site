@@ -13,7 +13,7 @@
 		margin: 0 auto;
 		max-width: 100%;
 		opacity: 1;
-		padding: (_size(section-spacing) * 1.5);
+		padding: _size(section-spacing);
 		width: 90em;
 
 		body.is-menu-visible & {
@@ -34,5 +34,20 @@
 
 		body.single & {
 			display: block;
+			width: 70em;
 		}
 	}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
