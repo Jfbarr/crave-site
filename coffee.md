@@ -1,6 +1,4 @@
 ---
-layout: default
+layout: coffee
 ---
-# Specialty Coffee
-
 Brief discussion on specialty coffee and current relationships/affiliations
