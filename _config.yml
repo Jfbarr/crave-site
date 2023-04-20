@@ -6,7 +6,7 @@ description: "Smashing Avos & All Day Brunch"
 baseurl: "/crave-site"
 url: "https://jfbarr.github.io"
 # logo: "/images/crave_logo.jpeg"
-date_format: "%B %-d, %Y"
+
 read_time: false
 words_per_minute: # 200
 google_fonts:
@@ -70,7 +70,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-redirect-from
 
 # Collections
