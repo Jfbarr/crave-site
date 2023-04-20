@@ -26,7 +26,7 @@ liquid:
   error_mode: strict
 
 # Build settings
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
@@ -51,8 +51,8 @@ pagination:
 search_full_content: false
 
 # Taxonomy pages
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
+# category_archive_path: "/categories/#"
+# tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -70,7 +70,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-redirect-from
 
 # Collections
@@ -80,15 +80,15 @@ plugins:
 #     permalink: /:collection/:path/
 
 # Front Matter Defaults
-defaults:
-  # Event defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comments: false
-      share: false
+# defaults:
+#   # Event defaults
+#   - scope:
+#       path: "_posts"
+#       type: posts
+#     values:
+#       layout: post
+#       comments: false
+#       share: false
 
 # Footer Links
 footer_links:
