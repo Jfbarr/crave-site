@@ -31,9 +31,21 @@ markdown: kramdown
 feed:
   path: atom.xml
 
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
+pagination:
+  enabled: true
+
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+  per_page: 3
+  permalink: '/page/:num/' # Pages are index.html inside this folder (default)
+
+  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
+  title: ':title'
+
+  # Limit how many pagenated pages to create (default: 0, means all)
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Search
 search_full_content: false
